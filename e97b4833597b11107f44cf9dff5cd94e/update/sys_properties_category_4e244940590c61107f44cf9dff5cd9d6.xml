@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Loaner Request</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 17:04:28</sys_created_on>
+        <sys_id>4e244940590c61107f44cf9dff5cd9d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Request</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">e97b4833597b11107f44cf9dff5cd94e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">e97b4833597b11107f44cf9dff5cd94e</sys_scope>
+        <sys_update_name>sys_properties_category_4e244940590c61107f44cf9dff5cd9d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-23 17:04:28</sys_updated_on>
+        <title><![CDATA[<p><span style="font-size: 12pt; color: #333399;"><strong>Loaner Request Properties</strong></span></p>
+<p><span style="font-size: 8pt;">Please contact Fred Luddy or your system admin if you have questions around setting these properties.</span></p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=4e244940590c61107f44cf9dff5cd9d6"/>
+</record_update>
