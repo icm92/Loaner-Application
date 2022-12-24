@@ -38,7 +38,9 @@
         <message_html><![CDATA[<p><span style="font-family: helvetica; font-size: 10pt;">Dear ${requested_for},</span></p>
 <p><span style="font-family: helvetica; font-size: 10pt;">The ${item_type}(${cmdb_ci}) <strong>is available for pick</strong> up at ${depot}.</span></p>
 <p><span style="font-family: helvetica; font-size: 10pt;">Your reservation is scheduled to begin ${start_date}. <strong>Please return the item to the same location</strong> you picked up <span style="background-color: #ffff00;">by ${end_date}.</span></span></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">You will receive a return reminder 24h prior to its due date.</span></p>]]></message_html>
+<p><span style="font-family: helvetica; font-size: 10pt;">You will receive a return reminder 24h prior to its due date.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: helvetica; font-size: 10pt;">${mail_script:x_cdltd_loaner_req_loaner_request_script_1}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Loaner Item Pick Up</name>
@@ -60,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>db80d5cc590c61107f44cf9dff5cd9bf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Loaner Item Pick Up</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">e97b4833597b11107f44cf9dff5cd94e</sys_package>
@@ -68,7 +70,7 @@
         <sys_scope display_value="Loaner Request">e97b4833597b11107f44cf9dff5cd94e</sys_scope>
         <sys_update_name>sysevent_email_action_db80d5cc590c61107f44cf9dff5cd9bf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-23 18:01:18</sys_updated_on>
+        <sys_updated_on>2022-12-24 11:15:07</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
